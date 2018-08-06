@@ -133,6 +133,7 @@
 		<key name="tizen.org/feature/peripheral_io.gpio" type="bool">true</key>
 		<key name="tizen.org/feature/peripheral_io.i2c" type="bool">true</key>
 		<key name="tizen.org/feature/peripheral_io.pwm" type="bool">false</key>
+		<key name="tizen.org/feature/peripheral_io.adc" type="bool">false</key>
 		<key name="tizen.org/feature/peripheral_io.spi" type="bool">true</key>
 		<key name="tizen.org/feature/peripheral_io.uart" type="bool">true</key>
 		<key name="tizen.org/feature/platform.core.api.version" type="string">5.0</key>
