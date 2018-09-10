@@ -77,6 +77,7 @@
 		<key name="tizen.org/feature/network.bluetooth.opp" type="bool">true</key>
 		<key name="tizen.org/feature/network.bluetooth.oob" type="bool">true</key>
 		<key name="tizen.org/feature/network.bluetooth.phonebook.client" type="bool">false</key>
+		<key name="tizen.org/feature/network.bluetooth.le.5_0" type="bool">false</key>
 		<key name="tizen.org/feature/network.nfc" type="bool">false</key>
 		<key name="tizen.org/feature/network.nfc.tag" type="bool">false</key>
 		<key name="tizen.org/feature/network.nfc.p2p" type="bool">false</key>
