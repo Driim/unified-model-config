@@ -51,6 +51,7 @@
 		<key name="tizen.org/feature/media.video_recording" type="bool">true</key>
 		<key name="tizen.org/feature/microphone" type="bool">true</key>
 		<key name="tizen.org/feature/minicontrol" type="bool">true</key>
+		<key name="tizen.org/feature/multi_assistant" type="bool">true</key>
 		<key name="tizen.org/feature/multi_point_touch.pinch_zoom" type="bool">true</key>
 		<key name="tizen.org/feature/multi_point_touch.point_count" type="int">10</key>
 		<key name="tizen.org/feature/multimedia.transcoder" type="bool">false</key>
