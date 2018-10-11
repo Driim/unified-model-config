@@ -25,6 +25,7 @@
 		<key name="tizen.org/feature/database.encryption" type="bool">false</key>
 		<key name="tizen.org/feature/datasync" type="bool">false</key>
 		<key name="tizen.org/feature/device_update" type="bool">false</key>
+		<key name="tizen.org/feature/display.state" type="bool">false</key>
 		<key name="tizen.org/feature/download" type="bool">false</key>
 		<key name="tizen.org/feature/email" type="bool">false</key>
 		<key name="tizen.org/feature/feedback.vibration" type="bool">false</key>

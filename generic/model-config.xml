@@ -12,6 +12,7 @@
 		<key name="tizen.org/feature/camera.front" type="bool">false</key>
 		<key name="tizen.org/feature/camera.front.flash" type="bool">false</key>
 		<key name="tizen.org/feature/database.encryption" type="bool">false</key>
+		<key name="tizen.org/feature/display.state" type="bool">true</key>
 		<key name="tizen.org/feature/fmradio" type="bool">false</key>
 		<key name="tizen.org/feature/graphics.acceleration" type="bool">true</key>
 		<key name="tizen.org/feature/input.keyboard" type="bool">false</key>

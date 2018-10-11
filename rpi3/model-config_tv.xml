@@ -11,7 +11,7 @@
 		<key name="tizen.org/feature/account.sync" type="bool">false</key>
 		<key name="tizen.org/feature/app_history" type="bool">false</key>
 		<key name="tizen.org/feature/battery" type="bool">false</key>
-        <key name="tizen.org/feature/calendar" type="bool" capi="on" webapi="off" csapi="on">true</key>
+		<key name="tizen.org/feature/calendar" type="bool" capi="on" webapi="off" csapi="on">true</key>
 		<key name="tizen.org/feature/camera" type="bool">false</key>
 		<key name="tizen.org/feature/camera.back" type="bool">false</key>
 		<key name="tizen.org/feature/camera.back.flash" type="bool">false</key>
@@ -22,6 +22,7 @@
 		<key name="tizen.org/feature/contextual_trigger" type="bool">false</key>
 		<key name="tizen.org/feature/database.encryption" type="bool">false</key>
 		<key name="tizen.org/feature/datasync" type="bool">false</key>
+		<key name="tizen.org/feature/display.state" type="bool">true</key>
 		<key name="tizen.org/feature/download" type="bool">true</key>
 		<key name="tizen.org/feature/feedback.vibration" type="bool">false</key>
 		<key name="tizen.org/feature/fmradio" type="bool">false</key>
