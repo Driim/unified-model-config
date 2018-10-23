@@ -158,7 +158,7 @@ ln -sf emul_wearable.xml %{_sysconfdir}/config/model-config.xml
 %license LICENSE.Apache-2.0
 
 %post -n model-config-emulator-profile_tv
-ln -sf %{name}_tv.xml %{_sysconfdir}/config/model-config.xml
+ln -sf emul_tv.xml %{_sysconfdir}/config/model-config.xml
 %files -n model-config-emulator-profile_tv
 %manifest %{name}.manifest
 %config %{_sysconfdir}/config/emul_tv.xml
