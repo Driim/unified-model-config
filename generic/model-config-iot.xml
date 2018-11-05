@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<model-config version="5.0" model="TizenIOT">
+<model-config version="5.5" model="TizenIOT">
 	<platform>
 		<key name="tizen.org/system/model_name" type="string">TizenIOT</key>
 		<key name="tizen.org/system/platform.name" type="string">Tizen</key>
-		<key name="tizen.org/feature/platform.version" type="string">5.0</key>
+		<key name="tizen.org/feature/platform.version" type="string">5.5</key>
 		<key name="tizen.org/system/platform.processor" type="string">none</key>
 		<key name="tizen.org/system/platform.communication_processor" type="string">none</key>
 		<key name="tizen.org/system/manufacturer" type="string">Tizen</key>
@@ -141,7 +141,7 @@
 		<key name="tizen.org/feature/peripheral_io.adc" type="bool">false</key>
 		<key name="tizen.org/feature/peripheral_io.spi" type="bool">true</key>
 		<key name="tizen.org/feature/peripheral_io.uart" type="bool">true</key>
-		<key name="tizen.org/feature/platform.core.api.version" type="string">5.0</key>
+		<key name="tizen.org/feature/platform.core.api.version" type="string">5.5</key>
 		<key name="tizen.org/feature/platform.core.cpu.arch" type="string">armv7</key>
 		<key name="tizen.org/feature/platform.core.cpu.arch.armv6" type="bool">false</key>
 		<key name="tizen.org/feature/platform.core.cpu.arch.armv7" type="bool">true</key>
@@ -155,11 +155,10 @@
 		<key name="tizen.org/feature/platform.core.fpu.arch.vfpv2" type="bool">false</key>
 		<key name="tizen.org/feature/platform.core.fpu.arch.vfpv3" type="bool">true</key>
 		<key name="tizen.org/feature/platform.core.fpu.arch.vfpv4" type="bool">false</key>
-		<key name="tizen.org/feature/platform.native.api.version" type="string">5.0</key>
+		<key name="tizen.org/feature/platform.native.api.version" type="string">5.5</key>
 		<key name="tizen.org/feature/platform.native.osp_compatible" type="bool">false</key>
-		<key name="tizen.org/feature/platform.version" type="string">5.0</key>
 		<key name="tizen.org/feature/platform.version.name" type="string">TizenIOT</key>
-		<key name="tizen.org/feature/platform.web.api.version" type="string">5.0</key>
+		<key name="tizen.org/feature/platform.web.api.version" type="string">5.5</key>
 		<key name="tizen.org/feature/profile" type="string">common</key>
 		<key name="tizen.org/feature/screen" type="bool">false</key>
 		<key name="tizen.org/feature/screen.always_on.high_color" type="bool">false</key>
