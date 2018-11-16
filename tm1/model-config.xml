@@ -120,6 +120,7 @@
 		<key name="tizen.org/feature/network.traffic_control" type="bool">true</key>
 		<key name="tizen.org/feature/network.inm" type="bool">true</key>
 		<key name="tizen.org/feature/network.vpn" type="bool">true</key>
+		<key name="tizen.org/feature/nlp" type="bool" capi="off" webapi="off" csapi="on">true</key>
 		<key name="tizen.org/feature/notification" type="bool">true</key>
 		<key name="tizen.org/feature/opengles" type="bool">true</key>
 		<key name="tizen.org/feature/opengles.texture_format.3dc" type="bool">false</key>

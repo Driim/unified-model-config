@@ -122,6 +122,7 @@
 		<key name="tizen.org/feature/network.inm" type="bool">false</key>
 		<key name="tizen.org/feature/network.vpn" type="bool">false</key>
 		<key name="tizen.org/feature/network.zigbee" type="bool">false</key>
+		<key name="tizen.org/feature/nlp" type="bool" capi="off" webapi="off" csapi="on">false</key>
 		<key name="tizen.org/feature/notification" type="bool">false</key>
 		<key name="tizen.org/feature/opengles" type="bool">false</key>
 		<key name="tizen.org/feature/opengles.texture_format.3dc" type="bool">false</key>
