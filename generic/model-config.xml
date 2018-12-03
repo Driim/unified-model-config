@@ -6,6 +6,8 @@
 		<key name="tizen.org/feature/platform.version" type="string">2.2.1</key>
 		<key name="tizen.org/system/platform.processor" type="string">Generic</key>
 		<key name="tizen.org/system/platform.communication_processor" type="string">N/A</key>
+		<key name="tizen.org/feature/accessibility.grayscale" type="bool">false</key>
+		<key name="tizen.org/feature/accessibility.negative" type="bool">false</key>
 		<key name="tizen.org/feature/camera" type="bool">false</key>
 		<key name="tizen.org/feature/camera.back" type="bool">false</key>
 		<key name="tizen.org/feature/camera.back.flash" type="bool">false</key>

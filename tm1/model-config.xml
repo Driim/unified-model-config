@@ -7,6 +7,8 @@
 		<key name="tizen.org/system/platform.processor" type="string">SC7727S</key>
 		<key name="tizen.org/system/platform.communication_processor" type="string">SC7727S</key>
 		<key name="tizen.org/system/manufacturer" type="string">Tizen</key>
+		<key name="tizen.org/feature/accessibility.grayscale" type="bool">false</key>
+		<key name="tizen.org/feature/accessibility.negative" type="bool">false</key>
 		<key name="tizen.org/feature/account" type="bool">true</key>
 		<key name="tizen.org/feature/account.sync" type="bool">true</key>
 		<key name="tizen.org/feature/app_history" type="bool">true</key>
