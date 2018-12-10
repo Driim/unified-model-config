@@ -67,6 +67,12 @@ Provides:	model-config
 %description -n model-config-tw2
 Model configuiration data pacakge(tw2)
 
+%package -n model-config-tw3
+Summary:	A Model configuration for tw3
+Provides:	model-config
+%description -n model-config-tw3
+Model configuiration data pacakge(tw3)
+
 %package -n model-config-xu3-profile_common
 Summary:	Model configuration of XU3 for common profiles
 Provides:	model-config
@@ -126,6 +132,9 @@ cp -f tm2/model-config.xml %{buildroot}%{_sysconfdir}/config/tm2.xml
 
 ###### For tw2 ######
 cp -f tw2/model-config.xml %{buildroot}%{_sysconfdir}/config/tw2.xml
+
+###### For tw3 ######
+cp -f tw3/model-config.xml %{buildroot}%{_sysconfdir}/config/tw3.xml
 
 ###### For xu3 ######
 cp -f xu3/model-config.xml %{buildroot}%{_sysconfdir}/config/xu3.xml
@@ -197,6 +206,13 @@ ln -sf tw2.xml %{_sysconfdir}/config/model-config.xml
 %files -n model-config-tw2
 %manifest %{name}.manifest
 %config %{_sysconfdir}/config/tw2.xml
+%license LICENSE.Apache-2.0
+
+%post -n model-config-tw3
+ln -sf tw3.xml %{_sysconfdir}/config/model-config.xml
+%files -n model-config-tw3
+%manifest %{name}.manifest
+%config %{_sysconfdir}/config/tw3.xml
 %license LICENSE.Apache-2.0
 
 %post -n model-config-xu3-profile_common
