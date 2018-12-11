@@ -13,12 +13,6 @@ Source1001:	%{name}.manifest
 %description
 Model configuration data package
 
-%package -n model-config-emulator-profile_common
-Summary:	A Model configuration for common profile
-Provides:	model-config
-%description -n model-config-emulator-profile_common
-Model configuiration data pacakge (emulator/common)
-
 %package -n model-config-emulator-profile_mobile
 Summary:	A Model configuration for mobile profile
 Provides:	model-config
@@ -73,23 +67,11 @@ Provides:	model-config
 %description -n model-config-tw3
 Model configuiration data pacakge(tw3)
 
-%package -n model-config-xu3-profile_common
-Summary:	Model configuration of XU3 for common profiles
-Provides:	model-config
-%description -n model-config-xu3-profile_common
-Model configuration data package main body supporting common profiles
-
 %package -n model-config-xu3-profile_tv
 Summary:	Model configuration of XU3 for TV profile
 Provides:	model-config
 %description -n model-config-xu3-profile_tv
 Model configuration data package main body supporting TV profile
-
-%package -n model-config-rpi3-profile_common
-Summary:	Model configuration of RPi3 for common profile
-Provides:	model-config
-%description -n model-config-rpi3-profile_common
-Model configuration data package main body supporting common profile
 
 %package -n model-config-rpi3-profile_tv
 Summary:	Model configuration of RPi3 for TV profile
@@ -109,7 +91,6 @@ rm -rf %{buildroot}
 mkdir -p %{buildroot}%{_sysconfdir}/config
 
 ###### For emulator ######
-cp -f emulator/model-config.xml %{buildroot}%{_sysconfdir}/config/emul_common.xml
 cp -f emulator/model-config_wearable.xml %{buildroot}%{_sysconfdir}/config/emul_wearable.xml
 
 %ifarch x86_64
@@ -120,7 +101,7 @@ cp -f emulator/model-config_tv.xml %{buildroot}%{_sysconfdir}/config/emul_tv.xml
 cp -f emulator/model-config_mobile.xml %{buildroot}%{_sysconfdir}/config/emul_mobile.xml
 %endif
 
-###### For generic ######
+###### For generic & iot ######
 cp -f generic/model-config.xml %{buildroot}%{_sysconfdir}/config/generic.xml
 cp -f generic/model-config-iot.xml %{buildroot}%{_sysconfdir}/config/iot.xml
 
@@ -137,20 +118,11 @@ cp -f tw2/model-config.xml %{buildroot}%{_sysconfdir}/config/tw2.xml
 cp -f tw3/model-config.xml %{buildroot}%{_sysconfdir}/config/tw3.xml
 
 ###### For xu3 ######
-cp -f xu3/model-config.xml %{buildroot}%{_sysconfdir}/config/xu3.xml
 cp -f xu3/model-config_tv.xml %{buildroot}%{_sysconfdir}/config/xu3_tv.xml
 
 ###### For rpi3 ######
-cp -f rpi3/model-config.xml %{buildroot}%{_sysconfdir}/config/rpi3.xml
 cp -f rpi3/model-config_tv.xml %{buildroot}%{_sysconfdir}/config/rpi3_tv.xml
 
-
-%post -n model-config-emulator-profile_common
-ln -sf emul_common.xml %{_sysconfdir}/config/model-config.xml
-%files -n model-config-emulator-profile_common
-%manifest %{name}.manifest
-%config %{_sysconfdir}/config/emul_common.xml
-%license LICENSE.Apache-2.0
 
 %post -n model-config-emulator-profile_mobile
 ln -sf emul_mobile.xml %{_sysconfdir}/config/model-config.xml
@@ -215,25 +187,11 @@ ln -sf tw3.xml %{_sysconfdir}/config/model-config.xml
 %config %{_sysconfdir}/config/tw3.xml
 %license LICENSE.Apache-2.0
 
-%post -n model-config-xu3-profile_common
-ln -sf xu3.xml %{_sysconfdir}/config/model-config.xml
-%files -n model-config-xu3-profile_common
-%manifest %{name}.manifest
-%config %{_sysconfdir}/config/xu3.xml
-%license LICENSE.Apache-2.0
-
 %post -n model-config-xu3-profile_tv
 ln -sf xu3_tv.xml %{_sysconfdir}/config/model-config.xml
 %files -n model-config-xu3-profile_tv
 %manifest %{name}.manifest
 %config %{_sysconfdir}/config/xu3_tv.xml
-%license LICENSE.Apache-2.0
-
-%post -n model-config-rpi3-profile_common
-ln -sf rpi3.xml %{_sysconfdir}/config/model-config.xml
-%files -n model-config-rpi3-profile_common
-%manifest %{name}.manifest
-%config %{_sysconfdir}/config/rpi3.xml
 %license LICENSE.Apache-2.0
 
 %post -n model-config-rpi3-profile_tv
