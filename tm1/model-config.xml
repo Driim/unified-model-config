@@ -75,7 +75,7 @@
 		<key name="tizen.org/feature/network.bluetooth.hid_device" type="bool">false</key>
 		<key name="tizen.org/feature/network.bluetooth.le" type="bool">true</key>
 		<key name="tizen.org/feature/network.bluetooth.le.ipsp" type="bool">false</key>
-		<key name="tizen.org/feature/network.bluetooth.le.gatt.server" type="bool">true</key>
+		<key name="tizen.org/feature/network.bluetooth.le.gatt.server" type="bool">false</key>
 		<key name="tizen.org/feature/network.bluetooth.le.gatt.client" type="bool">true</key>
 		<key name="tizen.org/feature/network.bluetooth.opp" type="bool">true</key>
 		<key name="tizen.org/feature/network.bluetooth.oob" type="bool">true</key>
