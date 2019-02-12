@@ -220,6 +220,9 @@
 		<key name="tizen.org/feature/systemsetting.incoming_call" type="bool">true</key>
 		<key name="tizen.org/feature/systemsetting.notification_email" type="bool">false</key>
 		<key name="tizen.org/feature/systemsetting.font" type="bool">true</key>
+		<key name="tizen.org/feature/thermistor.ap" type="bool">false</key>
+		<key name="tizen.org/feature/thermistor.cp" type="bool">false</key>
+		<key name="tizen.org/feature/thermistor.battery" type="bool">false</key>
 		<key name="tizen.org/feature/usb.accessory" type="bool">false</key>
 		<key name="tizen.org/feature/usb.host" type="bool">false</key>
 		<key name="tizen.org/feature/vision.barcode_detection" type="bool">true</key>

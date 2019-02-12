@@ -102,6 +102,9 @@
 		<key name="tizen.org/feature/speech.recognition" type="bool">true</key>
 		<key name="tizen.org/feature/speech.synthesis" type="bool">true</key>
 		<key name="tizen.org/feature/storage.external" type="bool">true</key>
+		<key name="tizen.org/feature/thermistor.ap" type="bool">true</key>
+		<key name="tizen.org/feature/thermistor.cp" type="bool">false</key>
+		<key name="tizen.org/feature/thermistor.battery" type="bool">false</key>
 		<key name="tizen.org/feature/usb.accessory" type="bool">true</key>
 		<key name="tizen.org/feature/usb.host" type="bool">true</key>
 		<key name="tizen.org/feature/vision.face_recognition" type="bool">false</key>
