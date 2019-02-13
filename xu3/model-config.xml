@@ -7,6 +7,8 @@
 		<key name="tizen.org/system/platform.processor" type="string">exynos4412</key>
 		<key name="tizen.org/system/platform.communication_processor" type="string">none</key>
 		<key name="tizen.org/system/manufacturer" type="string">Tizen</key>
+		<key name="tizen.org/feature/accessibility.grayscale" type="bool">false</key>
+		<key name="tizen.org/feature/accessibility.negative" type="bool">false</key>
 		<key name="tizen.org/feature/account" type="bool">false</key>
 		<key name="tizen.org/feature/account.sync" type="bool">false</key>
 		<key name="tizen.org/feature/app_history" type="bool">false</key>
