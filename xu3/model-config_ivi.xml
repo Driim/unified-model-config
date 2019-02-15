@@ -105,7 +105,7 @@
 		<key name="tizen.org/feature/network.wifi.tdls" type="bool">false</key>
 		<key name="tizen.org/feature/network.traffic_control" type="bool">true</key>
 		<key name="tizen.org/feature/network.inm" type="bool">true</key>
-		<key name="tizen.org/feature/nlp" type="bool" capi="off" webapi="off" csapi="on">false</key>
+		<key name="tizen.org/feature/nlp" type="bool">false</key>
 		<key name="tizen.org/feature/opengles" type="bool">true</key>
 		<key name="tizen.org/feature/opengles.texture_format.3dc" type="bool">false</key>
 		<key name="tizen.org/feature/opengles.texture_format.atc" type="bool">false</key>
