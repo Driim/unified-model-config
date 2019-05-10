@@ -219,6 +219,7 @@
 		<key name="tizen.org/feature/thermistor.ap" type="bool">true</key>
 		<key name="tizen.org/feature/thermistor.cp" type="bool">false</key>
 		<key name="tizen.org/feature/thermistor.battery" type="bool">false</key>
+		<key name="tizen.org/feature/ui_service.softkey" type="bool">true</key>
 		<key name="tizen.org/feature/tv.audio" type="bool">false</key>
 		<key name="tizen.org/feature/tv.display" type="bool">false</key>
 		<key name="tizen.org/feature/tv.inputdevice" type="bool">false</key>

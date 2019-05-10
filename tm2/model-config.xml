@@ -224,6 +224,7 @@
 		<key name="tizen.org/feature/thermistor.ap" type="bool">true</key>
 		<key name="tizen.org/feature/thermistor.cp" type="bool">false</key>
 		<key name="tizen.org/feature/thermistor.battery" type="bool">true</key>
+		<key name="tizen.org/feature/ui_service.softkey" type="bool">true</key>
 		<key name="tizen.org/feature/usb.accessory" type="bool">false</key>
 		<key name="tizen.org/feature/usb.host" type="bool">true</key>
 		<key name="tizen.org/feature/vision.barcode_detection" type="bool">true</key>
