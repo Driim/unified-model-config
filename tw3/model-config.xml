@@ -248,6 +248,7 @@
 		<key name="tizen.org/feature/oauth2" type="bool">true</key>
 		<key name="tizen.org/feature/security.privacy_privilege" type="bool">true</key>
 		<key name="tizen.org/feature/security.device_certificate" type="bool">false</key>
+		<key name="tizen.org/system/device_type" type="string">Wearable(without SIM)</key>
 	</platform>
 	<custom>
 	</custom>
