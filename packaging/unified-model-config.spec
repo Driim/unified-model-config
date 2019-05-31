@@ -55,6 +55,12 @@ Provides:	model-config
 %description -n model-config-n4
 Model configuiration data pacakge(tm2)
 
+%package -n model-config-pico
+Summary:	A Model configuration for Pico PI
+Provides:	model-config
+%description -n model-config-pico
+Model configuiration data pacakge(Pico)
+
 %package -n model-config-tw2
 Summary:	A Model configuration for tw2
 Provides:	model-config
@@ -110,6 +116,9 @@ cp -f tm1/model-config.xml %{buildroot}%{_sysconfdir}/config/tm1.xml
 
 ###### For tm2 ######
 cp -f tm2/model-config.xml %{buildroot}%{_sysconfdir}/config/tm2.xml
+
+###### For Pico ######
+cp -f pico/model-config.xml %{buildroot}%{_sysconfdir}/config/pico.xml
 
 ###### For tw2 ######
 cp -f tw2/model-config.xml %{buildroot}%{_sysconfdir}/config/tw2.xml
@@ -171,6 +180,13 @@ ln -sf tm2.xml %{_sysconfdir}/config/model-config.xml
 %files -n model-config-n4
 %manifest %{name}.manifest
 %config %{_sysconfdir}/config/tm2.xml
+%license LICENSE.Apache-2.0
+
+%post -n model-config-pico
+ln -sf pico.xml %{_sysconfdir}/config/model-config.xml
+%files -n model-config-pico
+%manifest %{name}.manifest
+%config %{_sysconfdir}/config/pico.xml
 %license LICENSE.Apache-2.0
 
 %post -n model-config-tw2
